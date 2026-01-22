@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Air Max Classic",
+    "brand": "Nike",
+    "price": 189.99,
+    "image": "images/sneaker_1_1769068369776.png",
+    "description": "Iconic white and blue colorway with visible air cushioning for ultimate comfort.",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 2,
+    "name": "Jordan Retro High",
+    "brand": "Nike",
+    "price": 219.99,
+    "image": "images/sneaker_2_1769068519483.png",
+    "description": "Red and black high-top basketball sneaker with legendary style.",
+    "category": "Basketball"
+  },
+  {
+    "id": 3,
+    "name": "Superstar Original",
+    "brand": "Adidas",
+    "price": 109.99,
+    "image": "images/sneaker_3_1769068940053.png",
+    "description": "Classic white leather sneaker with signature black stripes and shell toe.",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 4,
+    "name": "574 Classic",
+    "brand": "New Balance",
+    "price": 139.99,
+    "image": "images/sneaker_4_1769069069044.png",
+    "description": "Retro-inspired running shoe with premium suede and comfortable cushioning.",
+    "category": "Running"
+  },
+  {
+    "id": 5,
+    "name": "Air Force 1 Shadow",
+    "brand": "Nike",
+    "price": 159.99,
+    "image": "images/sneaker_5_1769069204694.png",
+    "description": "Sleek all-black silhouette with premium leather and iconic design.",
+    "category": "Lifestyle"
+  },
+  {
+    "id": 6,
+    "name": "Chuck Taylor All-Star",
+    "brand": "Converse",
+    "price": 79.99,
+    "image": "images/sneaker_6_1769069375583.png",
+    "description": "Colorful high-top canvas sneaker that makes a bold statement.",
+    "category": "Lifestyle"
+  }
+]

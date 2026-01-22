@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SoleStreet - Premium sneaker e-commerce. Shop the latest trending sneakers from top brands.">
+  <title>SoleStreet | Premium Sneakers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header-container">
+      <a href="#" class="logo">
+        <span class="logo-icon">👟</span>
+        <span class="logo-text">SoleStreet</span>
+      </a>
+      <nav class="nav">
+        <a href="#" class="nav-link active">Shop</a>
+        <a href="#" class="nav-link">New Arrivals</a>
+        <a href="#" class="nav-link">Brands</a>
+        <a href="#" class="nav-link">Sale</a>
+      </nav>
+      <button class="cart-btn" id="cartBtn" aria-label="Open cart">
+        <svg class="cart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <path d="M16 10a4 4 0 0 1-8 0"></path>
+        </svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Step Into
+        <span class="gradient-text">Style</span>
+      </h1>
+      <p class="hero-subtitle">Discover the latest trending sneakers from premium brands. Express yourself with every step.</p>
+      <a href="#products" class="btn btn-primary">Shop Now</a>
+    </div>
+    <div class="hero-decoration">
+      <div class="floating-circle circle-1"></div>
+      <div class="floating-circle circle-2"></div>
+      <div class="floating-circle circle-3"></div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Trending Now</h2>
+        <p class="section-subtitle">Handpicked selections from our latest collection</p>
+      </div>
+      <div class="products-grid" id="productsGrid">
+        <!-- Products will be rendered here by JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Sidebar -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+  <aside class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h2 class="cart-title">Your Cart</h2>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <div class="cart-items" id="cartItems">
+      <!-- Cart items will be rendered here -->
+    </div>
+    <div class="cart-empty" id="cartEmpty">
+      <span class="cart-empty-icon">🛒</span>
+      <p>Your cart is empty</p>
+    </div>
+    <div class="cart-footer" id="cartFooter">
+      <div class="cart-total">
+        <span>Total</span>
+        <span class="cart-total-price" id="cartTotal">$0.00</span>
+      </div>
+      <button class="btn btn-primary btn-checkout" id="checkoutBtn">Checkout</button>
+    </div>
+  </aside>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <span class="toast-icon">✓</span>
+    <span class="toast-message" id="toastMessage">Added to cart!</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
